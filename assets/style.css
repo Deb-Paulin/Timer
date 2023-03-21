@@ -21,12 +21,10 @@ body {
 }
 
 .container {
-    max-width: 640px;
     margin: 50px auto;
     position: fixed;
     top: 6.5rem;
     left: 32rem;
-    background-color: none;
     padding: 20px;
     border-radius: 10px;
 }
@@ -59,4 +57,11 @@ body {
 
 .pausado {
   color:  var(--vermelho);
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        left: 4rem;
+        top: 6rem;
+    }
 }
